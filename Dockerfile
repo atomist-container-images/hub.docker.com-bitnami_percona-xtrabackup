@@ -1,18 +1,39 @@
-# Tags: latest, 8.0.28-20-debian-10-r2, 8.0.28-20, 8-debian-10, 8
+# Tags: latest, 8.0.28-20-debian-10-r5, 8.0.28-20, 8-debian-10, 8
 FROM bitnami/percona-xtrabackup:latest
-FROM bitnami/percona-xtrabackup:8.0.28-20-debian-10-r2
+FROM bitnami/percona-xtrabackup:8.0.28-20-debian-10-r5
 FROM bitnami/percona-xtrabackup:8.0.28-20
 FROM bitnami/percona-xtrabackup:8-debian-10
 FROM bitnami/percona-xtrabackup:8
 
-# Tags: _
-FROM bitnami/percona-xtrabackup:_
-
-# Tags: 2.4.25-debian-10-r2, 2.4.25, 2.4-debian-10, 2.4
-FROM bitnami/percona-xtrabackup:2.4.25-debian-10-r2
+# Tags: 2.4.25-debian-10-r6, 2.4.25, 2.4-debian-10, 2.4
+FROM bitnami/percona-xtrabackup:2.4.25-debian-10-r6
 FROM bitnami/percona-xtrabackup:2.4.25
 FROM bitnami/percona-xtrabackup:2.4-debian-10
 FROM bitnami/percona-xtrabackup:2.4
+
+# Tags: _
+FROM bitnami/percona-xtrabackup:_
+
+# Tags: 2.4.25-debian-10-r5
+FROM bitnami/percona-xtrabackup:2.4.25-debian-10-r5
+
+# Tags: 8.0.28-20-debian-10-r4
+FROM bitnami/percona-xtrabackup:8.0.28-20-debian-10-r4
+
+# Tags: 2.4.25-debian-10-r4
+FROM bitnami/percona-xtrabackup:2.4.25-debian-10-r4
+
+# Tags: 8.0.28-20-debian-10-r3
+FROM bitnami/percona-xtrabackup:8.0.28-20-debian-10-r3
+
+# Tags: 2.4.25-debian-10-r3
+FROM bitnami/percona-xtrabackup:2.4.25-debian-10-r3
+
+# Tags: 8.0.28-20-debian-10-r2
+FROM bitnami/percona-xtrabackup:8.0.28-20-debian-10-r2
+
+# Tags: 2.4.25-debian-10-r2
+FROM bitnami/percona-xtrabackup:2.4.25-debian-10-r2
 
 # Tags: 8.0.28-20-debian-10-r1
 FROM bitnami/percona-xtrabackup:8.0.28-20-debian-10-r1
@@ -165,30 +186,3 @@ FROM bitnami/percona-xtrabackup:8.0.27-19-debian-10-r58
 
 # Tags: 2.4.24-debian-10-r193
 FROM bitnami/percona-xtrabackup:2.4.24-debian-10-r193
-
-# Tags: 8.0.27-19-debian-10-r57
-FROM bitnami/percona-xtrabackup:8.0.27-19-debian-10-r57
-
-# Tags: 2.4.24-debian-10-r192
-FROM bitnami/percona-xtrabackup:2.4.24-debian-10-r192
-
-# Tags: 8.0.27-19-debian-10-r56
-FROM bitnami/percona-xtrabackup:8.0.27-19-debian-10-r56
-
-# Tags: 2.4.24-debian-10-r191
-FROM bitnami/percona-xtrabackup:2.4.24-debian-10-r191
-
-# Tags: 8.0.27-19-debian-10-r55
-FROM bitnami/percona-xtrabackup:8.0.27-19-debian-10-r55
-
-# Tags: 2.4.24-debian-10-r190
-FROM bitnami/percona-xtrabackup:2.4.24-debian-10-r190
-
-# Tags: 8.0.27-19-debian-10-r54
-FROM bitnami/percona-xtrabackup:8.0.27-19-debian-10-r54
-
-# Tags: 2.4.24-debian-10-r189
-FROM bitnami/percona-xtrabackup:2.4.24-debian-10-r189
-
-# Tags: 8.0.27-19-debian-10-r53
-FROM bitnami/percona-xtrabackup:8.0.27-19-debian-10-r53
